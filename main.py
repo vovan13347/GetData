@@ -17,6 +17,6 @@ if response.status_code == 200:
 
 
     for user in users:
-        print(f"Name: {user['first_name']}, Surname: {user['last_name']}")
+        print(f"Name: {user['firstName']}, Surname: {user['lastName']}")
 else:
     print(f"Failed to fetch data: {response.status_code}")
